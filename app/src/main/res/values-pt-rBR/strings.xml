@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Minha Aplicação</string>
+    <string name="atualizar">Atualizar</string>
+    <string name="yurNameHere">O Seu Nome aparecerá Aqui</string>
+    <string name="typeUrName">Digite Seu Nome</string>
+    <string name="clear">Limpar</string>
+</resources>

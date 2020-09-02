@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="atualizar">Update</string>
+    <string name="yurNameHere">Your Name will be shown here</string>
+    <string name="typeUrName">Type your name</string>
+    <string name="clear">Clear</string>
+</resources>
