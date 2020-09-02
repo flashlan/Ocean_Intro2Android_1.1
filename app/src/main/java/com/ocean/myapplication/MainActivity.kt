@@ -12,12 +12,15 @@ class MainActivity : AppCompatActivity() {
 
         btnUpdate.setOnClickListener {
             //tvNome.text = "Everton Kozloski";
-            tvNome.text = txtBox.text;
+            tvNome.text = txtBoxName.text;
+            textAge.text = txtBoxAge.text;
         }
 
         btnClear.setOnClickListener {
-            txtBox.text.clear();
-            tvNome.text = "Seu nome aparecerá aqui"
+            txtBoxName.text.clear();
+            txtBoxAge.text.clear();
+            tvNome.text = "Your Name"
+            textAge.text = "Your Age"
         }
     }
 }

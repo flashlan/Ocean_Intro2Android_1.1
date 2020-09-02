@@ -2,7 +2,10 @@
 <resources>
     <string name="app_name">Minha Aplicação</string>
     <string name="atualizar">Atualizar</string>
-    <string name="yurNameHere">O Seu Nome aparecerá Aqui</string>
+    <string name="yurNameHere">Nome</string>
     <string name="typeUrName">Digite Seu Nome</string>
     <string name="clear">Limpar</string>
+    <string name="age">Idade</string>
+    <string name="name">Nome</string>
+    <string name="type_your_age">Escreva sua Idade</string>
 </resources>
