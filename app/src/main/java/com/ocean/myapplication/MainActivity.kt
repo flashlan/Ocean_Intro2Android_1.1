@@ -9,6 +9,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        tvNome.text = "Everton Kozloski"
+
+        btnUpdate.setOnClickListener {
+            //tvNome.text = "Everton Kozloski";
+            tvNome.text = txtBox.text;
+        }
+
+        btnClear.setOnClickListener {
+            txtBox.text.clear();
+            tvNome.text = "Seu nome aparecerá aqui"
+        }
     }
 }
